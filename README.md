@@ -2,7 +2,7 @@
 # Drawing and Animating the Apple Logo
 A fun project playing around with TimelineView and Canvas in SwiftUI 3.0. 
 
-[Demo Tweet](https://twitter.com/heysaik)
+[Demo Tweet](https://twitter.com/heysaik/status/1404993373170126848?s=21)
 
 ## Usage
 1. Build and run 😄
