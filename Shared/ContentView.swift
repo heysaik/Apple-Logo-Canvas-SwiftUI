@@ -14,7 +14,7 @@ struct ContentView: View {
             Canvas { context, _ in
                 context.fill(
                     appleLogo(in: CGRect(x: 0, y: 0, width: 150, height: 150)),
-                    with: .color(Color.init(uiColor: UIColor(hue: cos(now), saturation: 0.9, brightness: 0.8, alpha: 1.0)))
+                    with: .color(Color.init(uiColor: UIColor(hue: ((cos(now)) / 2) + 0.5, saturation: 0.8, brightness: 0.8, alpha: 1.0)))
                 )
             }
             .frame(width: 150, height: 150, alignment: .center)
